@@ -1,9 +1,10 @@
+
 pipeline {
      environment {
        IMAGE_NAME = "alpinehelloworld"
        IMAGE_TAG = "latest"
-       STAGING = "odellya-staging"
-       PRODUCTION = "odellya-production"
+       STAGING = "eazytraining-staging"
+       PRODUCTION = "eazytraining-production"
      }
      agent none
      stages {
